@@ -1,0 +1,29 @@
+Source: mauna-archive-keyring
+Section: misc
+Priority: required
+Maintainer: Mauna Linux <dev@maunalinux.top>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+
+Package: mauna-archive-keyring
+Architecture: all
+Priority: required
+Depends: gpgv, ${misc:Depends}
+Breaks: mauna-keyring
+Conflicts: mauna-keyring
+Replaces: mauna-keyring
+Recommends: gnupg
+Description: Mauna GPG repositories pubkeys
+ Mauna Linux distribution public keys
+
+Package: mauna-archive-keyring-udeb
+Package-Type: udeb
+Priority: required
+Architecture: all
+Section: debian-installer
+Depends: ${misc:Depends}
+Recommends: gpgv-udeb
+Description: Mauna GPG repositories pubkeys (Debian Installer package)
+ Mauna Linux distribution public keys
+

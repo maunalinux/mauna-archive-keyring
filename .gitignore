@@ -1,0 +1,6 @@
+debian/mauna-archive-keyring/
+debian/mauna-archive-keyring-udeb/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars

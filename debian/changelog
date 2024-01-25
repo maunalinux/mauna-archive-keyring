@@ -1,0 +1,12 @@
+mauna-archive-keyring (2.0.0) mauna; urgency=medium
+
+  * New upstream release
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 25 Jan 2024 16:07:30 -0300
+
+mauna-keyring (1.0.0) mauna; urgency=medium
+
+  * New upstream release for Mauna Linux
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 16 Aug 2023 14:03:06 -0300
+
